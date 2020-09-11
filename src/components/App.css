@@ -1,0 +1,9 @@
+.block {
+    background: azure;
+
+    &__header {
+        color: #27aedb;
+        text-align: center;
+    }
+}
+

@@ -1,1 +1,1 @@
-# shop-frontend
+# webpack_beginning
