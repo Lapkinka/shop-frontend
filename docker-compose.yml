@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  react:
+    container_name: react-shop
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - ./app/node_modules
+    ports:
+      - 8081:8080
+
