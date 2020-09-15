@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.jsx",
   "scripts": {
-    "start": "webpack-dev-server --mode development --hot --host=0.0.0.0 --public=localhost:8080",
+    "start": "webpack-dev-server --mode development --hot --host=0.0.0.0",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -41,7 +41,7 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
     "react": "^16.13.1",

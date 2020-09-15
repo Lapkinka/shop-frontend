@@ -36,5 +36,16 @@ module.exports = {
             template: "./src/index.html"
         }),
         new CleanWebpackPlugin()
-    ]
+    ],
+    devServer: {
+
+        // port: 8080,
+        // host: "0.0.0.0",
+        // public: "0.0.0.0",
+        // hot: true,
+        // inline: true,
+        headers: {
+            "Access-Control-Allow-Origin": "*"
+        }
+    }
 };
