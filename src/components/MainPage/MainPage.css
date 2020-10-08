@@ -5,5 +5,14 @@
         color: #27aedb;
         text-align: center;
     }
+
+    &_dark {
+        background: #fff;
+        color: #000;
+    }
+
+    &_light {
+        background: gainsboro;
+    }
 }
 
